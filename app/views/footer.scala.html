@@ -1,0 +1,47 @@
+@(blogCategories: collection.immutable.ListMap[String,String])
+
+<footer>
+    <div class="container">
+        <div class="footer-social">
+            <h2 class="footer-social__header">Мы в социальных сетях</h2>
+            <ul>
+                <li><a class="footer-social__vk" href="http://vk.com/diapost" target="_blank"></a></li>
+                <li><a class="footer-social__fb" href="#"></a></li>
+                <li><a class="footer-social__tw" href="#"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-subscribe">
+            <h2 class="footer-social__header">Получайте последние статьи на почту</h2>
+            <form action="//cmpp.us9.list-manage.com/subscribe/post?u=65b08f10302ef7ca981e20fe4&amp;id=a136aef67f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate center-block clearfix" target="_blank" novalidate>
+                <div class="footer-subscribe__wrap">
+                    <div class="mc-field-group">
+                        <input type="email" class="email" required="" value="" name="EMAIL" id="mce-EMAIL" placeholder="Введите Ваш email">
+                    </div>
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_65b08f10302ef7ca981e20fe4_a136aef67f" tabindex="-1" value=""></div>
+                    <button id="mc-embedded-subscribe" class="dg-feed__btn footer-subscribe__btn" type="submit" value="Subscribe" name="subscribe">
+                        <span>Подписаться</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer-logo">
+            <a class="footer-logo__content">Диапост</a>
+            <p class="footer-text" style="margin-top: 10px">При реализации проекта используются средства государственной поддержки, выделенные в качестве гранта в соответствии c распоряжением Президента Российской Федерации №243-рп от 25.07.2014 и на основании конкурса, проведенного Общероссийской общественной организацией «Российский Союз Молодежи»<br></p>
+            <p class="footer-text" style="margin-top: 10px">Свидетельство о регистрации СМИ № ФС77-61355 от 7 апреля 2015 года</p>
+            <p class="footer-text">Диапост &copy; 2015</p>
+        </div>
+
+        <div class="footer-menu">
+            <h2 class="footer-social__header">Статьи</h2>
+            <ul>
+                @for(blogCategory <- blogCategories){
+                    <li><a href="@routes.Application.blogCategory(blogCategory._1)" @if(blogCategory._1.contains("kon-footer")){class="kon"}>@blogCategory._2</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</footer>

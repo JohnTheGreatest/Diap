@@ -1,0 +1,691 @@
+2015-07-12 16:38:00,330 - [INFO] - from play in pool-6-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-07-12 16:38:28,947 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6mmkj27mm - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method video: (id: String, slug: String)play.api.mvc.Call.
+Unspecified value parameters id, slug.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 16:38:29,010 - [WARN] - from play in New I/O worker #1 
+No application found at invoker init
+
+2015-07-12 16:39:02,942 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6mmkj464f - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value author]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 16:39:30,416 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6mmkj5kl6 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value author]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 16:39:32,641 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6mmkj5o2l - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value author]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 16:39:56,570 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-07-12 16:40:01,933 - [ERROR] - from application in play-akka.actor.default-dispatcher-6 
+
+
+! @6mmkj7fbb - Internal server error, for (GET) [/videos] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: key not found: videos]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: key not found: videos
+	at scala.collection.MapLike$class.default(MapLike.scala:228) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractMap.default(Map.scala:59) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.MapLike$class.apply(MapLike.scala:141) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractMap.apply(Map.scala:59) ~[scala-library-2.11.1.jar:na]
+	at controllers.Application$$anonfun$videos$1.apply(Application.scala:184) ~[na:na]
+	at controllers.Application$$anonfun$videos$1.apply(Application.scala:182) ~[na:na]
+	at controllers.Prismic$$anonfun$bodyAction$1$$anonfun$apply$7.apply(Prismic.scala:87) ~[na:na]
+	at controllers.Prismic$$anonfun$bodyAction$1$$anonfun$apply$7.apply(Prismic.scala:86) ~[na:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:251) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:28:52,385 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-07-12 21:30:16,087 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-07-12 21:31:04,950 - [INFO] - from play in play-internal-execution-context-5 
+Application started (Dev)
+
+2015-07-12 21:31:22,731 - [ERROR] - from application in play-akka.actor.default-dispatcher-32 
+
+
+! @6mmm5e4fj - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:31:30,992 - [ERROR] - from application in play-akka.actor.default-dispatcher-37 
+
+
+! @6mmm5eglc - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:31:31,553 - [ERROR] - from application in play-akka.actor.default-dispatcher-35 
+
+
+! @6mmm5ehh1 - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:31:32,130 - [ERROR] - from application in play-akka.actor.default-dispatcher-37 
+
+
+! @6mmm5eid7 - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:31:32,808 - [ERROR] - from application in play-akka.actor.default-dispatcher-37 
+
+
+! @6mmm5ejd9 - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:31:34,167 - [ERROR] - from application in play-akka.actor.default-dispatcher-37 
+
+
+! @6mmm5eldf - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-12 21:35:49,257 - [INFO] - from play in play-internal-execution-context-8 
+Application started (Dev)
+
+2015-07-12 21:36:45,483 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6mmm66e19 - Internal server error, for (GET) [/videos] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Expected '}' but found 'EOF']
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 21:36:47,291 - [ERROR] - from application in New I/O worker #16 
+
+
+! @6mmm66gin - Internal server error, for (GET) [/videos] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Expected '}' but found 'EOF']
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-07-12 21:36:54,561 - [INFO] - from play in play-internal-execution-context-11 
+Application started (Dev)
+
+2015-07-12 21:37:56,287 - [INFO] - from play in play-internal-execution-context-12 
+Application started (Dev)
+
+2015-07-12 21:38:50,261 - [INFO] - from play in play-internal-execution-context-14 
+Application started (Dev)
+
+2015-07-12 21:45:36,945 - [INFO] - from play in play-internal-execution-context-16 
+Application started (Dev)
+
+2015-07-13 02:31:40,872 - [INFO] - from play in play-internal-execution-context-18 
+Application started (Dev)
+
+2015-07-13 02:32:58,855 - [INFO] - from play in play-internal-execution-context-18 
+Application started (Dev)
+
+2015-07-13 02:33:23,949 - [ERROR] - from application in play-akka.actor.default-dispatcher-86 
+
+
+! @6mmnj553j - Internal server error, for (GET) [/videos/VaJlTR4AABYMn9pL/konferenciya-duhovniy-faktor] ->
+
+play.api.Application$$anon$1: Execution exception[[NoSuchElementException: None.get]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:205) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$14$$anonfun$apply$1.applyOrElse(PlayDefaultUpstreamHandler.scala:202) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure$$anonfun$recover$1.apply(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Failure.recover(Try.scala:215) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recover$1.apply(Future.scala:324) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.processBatch$1(BatchingExecutor.scala:67) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply$mcV$sp(BatchingExecutor.scala:82) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch$$anonfun$run$1.apply(BatchingExecutor.scala:59) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:72) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.BatchingExecutor$Batch.run(BatchingExecutor.scala:58) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:322) ~[scala-library-2.11.1.jar:na]
+	at scala.None$.get(Option.scala:320) ~[scala-library-2.11.1.jar:na]
+	at views.html.videos.video$.apply(video.template.scala:27) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:199) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26$$anonfun$apply$27.apply(Application.scala:197) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:131) ~[na:na]
+	at controllers.Prismic$$anonfun$checkSlug$1.applyOrElse(Prismic.scala:130) ~[na:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:218) ~[scala-library-2.11.1.jar:na]
+	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:214) ~[scala-library-2.11.1.jar:na]
+	at scala.Option.collect(Option.scala:259) ~[scala-library-2.11.1.jar:na]
+	at controllers.Prismic$.checkSlug(Prismic.scala:130) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:197) ~[na:na]
+	at controllers.Application$$anonfun$video$1$$anonfun$apply$26.apply(Application.scala:195) ~[na:na]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) [scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) ~[scala-library-2.11.1.jar:na]
+	... 13 common frames omitted
+
+2015-07-13 02:38:47,139 - [INFO] - from play in play-internal-execution-context-26 
+Application started (Dev)
+
+2015-07-13 02:43:37,698 - [INFO] - from play in play-internal-execution-context-28 
+Application started (Dev)
+
+2015-07-13 02:46:10,816 - [INFO] - from play in play-internal-execution-context-28 
+Application started (Dev)
+
+2015-07-13 02:47:18,328 - [INFO] - from play in play-internal-execution-context-28 
+Application started (Dev)
+
+2015-07-13 02:52:20,946 - [INFO] - from play in play-internal-execution-context-35 
+Application started (Dev)
+
+2015-07-13 02:59:08,484 - [INFO] - from play in play-internal-execution-context-39 
+Application started (Dev)
+
+2015-07-13 03:00:20,355 - [INFO] - from play in play-internal-execution-context-39 
+Application started (Dev)
+
+2015-07-13 03:04:34,502 - [INFO] - from play in play-internal-execution-context-44 
+Application started (Dev)
+
+2015-07-13 03:22:34,357 - [INFO] - from play in play-internal-execution-context-48 
+Application started (Dev)
+
+2015-07-13 03:22:51,720 - [INFO] - from play in play-internal-execution-context-49 
+Application started (Dev)
+
+2015-07-13 03:23:30,182 - [INFO] - from play in play-internal-execution-context-49 
+Application started (Dev)
+
